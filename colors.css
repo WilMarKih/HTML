@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(41,41,41);
+}
+#p1{
+    /* named colors  */
+    color: tomato;
+}
+#p2{
+    /* rgb values  */
+    color: rgb(100, 222, 255);
+}
+#p3{
+    color: #59ff5f;
+}
+#p4{
+    color: hsl(283, 100%, 64%);
+}

@@ -1,0 +1,18 @@
+/* choice font, fallback font */
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Mont;
+    src: url(fonts/Montserrat-Black.ttf);
+}
+h1{
+    font-family:'Times New Roman', Times, serif, "Roboto-Regular", ;
+}
+#p1{
+    font-family: Mont, "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
