@@ -1,4 +1,4 @@
 h1{
     /* text-shadow: horizontal vertical blur; */
-    text-shadow: 3px 3px 5px;
+    text-shadow: 3px 3px 5px red, -3px -3px 5px blue;
 }
