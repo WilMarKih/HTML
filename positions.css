@@ -1,0 +1,24 @@
+#box1{
+    width: 200px; height: 200px;
+    background-color: lightblue;
+    /* position: relative; */
+    /* top: 100px;    /* (push element 100 pixels from the top relative to its original state) */
+    /* right: 100px;     /*(push element 100 pixels from the right relative to its original state) */
+    /* left: 100px;    /* (push element 100 pixels from the left relative to its original state)  */
+    
+    /* position: fixed;
+    left: 0px; 
+    bottom: 0px; */
+
+    position: sticky;
+    top: 0px; /* on scroll, the browser catches the box */
+}
+
+#box2{
+    width: 100px; height: 100px;
+    background-color: tomato;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}

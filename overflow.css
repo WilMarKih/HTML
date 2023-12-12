@@ -1,0 +1,16 @@
+div{
+    border: 2px solid;
+    border-radius: 1em;
+    height: 75px;
+    /*      overflow: visible;
+        content is allowed to overflow
+            overflow: hidden;
+        content is hidden within the confines
+            overflow: clip;
+            overflow-clip-margin: 12px;
+        similiar to hidden but dictating how much is showed wrt overflow-clip-margin
+            overflow: scroll;
+        content border is fixed with overflow being scrollable on x/y planes */
+    overflow: auto;
+    /* scroll of content is relative to needing or not */
+}

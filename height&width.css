@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    /* box-sizing property disregards the border pixels and the padding in calculating, 
+    asterix is for all elements  */
+}
+.container{
+    background-color: gray;
+    height: 100vh;
+}
+.box{
+    border: 2px solid;
+    padding: 25px;
+    border-radius: 1em;
+    height: auto;
+    width: 50%;
+    float: left;
+}
+#box1{
+    background-color: tomato;
+}
+#box2{
+    background-color: lightblue;
+}
