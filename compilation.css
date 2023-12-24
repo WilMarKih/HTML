@@ -1,59 +1,28 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: gray;
-  }
-  
-  h3 {
+h1{
     text-align: center;
-    margin-bottom: 20px;
-    color: white;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0 auto;
-  }
-  
-  table th, td {
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    background-image: url(images/sunset.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    border: 1;
+    align-items: center;
+}
+
+tr{
     padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
-  }
-  
-  tr:nth-child(odd) {
-    background-color: #f1f5f8;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  button {
-    background-color: antiquewhite;
-    color: black;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 50px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  /* Optional styles for specific buttons */
-  
-  .audio {
-    background-color: lightgreen;
-  }
-  
-  .lyrics {
-    background-color: pink;
-  }
-  
-  .video {
-    background-color: orange;
-    color: white;
-  }
-  
+    align-self: center;
+    background-color: rgba(255, 99, 71, 0.5);
+}
+
+th{
+    padding: 25px;
+}
